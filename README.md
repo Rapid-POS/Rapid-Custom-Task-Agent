@@ -8,9 +8,9 @@ Current Counterpoint features using RCTA:
 
 # Rapid Custom Task Agent (RCTA) – Overview
 
-## 📌 What is RCTA?
+## What is RCTA?
 
-The **Rapid Custom Task Agent (RCTA)** is a powerful, automated task engine developed by **Rapid POS**. It is designed to execute scheduled tasks in the background, eliminating the need for manual intervention. RCTA runs as a **Windows service** and is commonly used to automate processes within **Counterpoint** environments.
+The **Rapid Custom Task Agent (RCTA)** is a powerful, automated task engine developed by **Rapid POS**. It is designed to execute scheduled tasks in the background, eliminating the need for manual execution. RCTA runs as a **Windows service** and is commonly used to automate processes within **Counterpoint** environments.
 
 Using simple, human-readable **YAML configuration files**, RCTA enables you to define and run a wide variety of automated workflows such as:
 
@@ -21,7 +21,7 @@ Using simple, human-readable **YAML configuration files**, RCTA enables you to d
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 RCTA operates by reading structured YAML files that define a series of **tasks**. Each task contains:
 
@@ -34,39 +34,32 @@ When a trigger condition is met, RCTA executes each step in order.
 
 ---
 
-## 🧩 Core Features
+## Core Features
 
 RCTA includes several pre-configured features designed to handle common automation scenarios for Counterpoint users:
 
-### 📄 Rapid Automated Reporting
+### Rapid Automated Reporting
 Automatically generates Crystal Reports based on scheduled jobs defined inside Counterpoint, and emails them to specified recipients.
 
 - Users configure report settings inside Counterpoint.
 - RCTA reads the report schedule and sends reports in formats like PDF, XLS, or CSV.
 - All activity is logged for auditing and troubleshooting.
 
-### 📦 Rapid Automated Purchase Order (PO) Send
+### Rapid Automated Purchase Order (PO) Send
 Extracts Purchase Orders from Counterpoint and sends them automatically via email or FTP/SFTP to vendors.
 
 - Scheduled execution with no user interaction required.
 - Supports custom PO formats and secure delivery methods.
 
-### 🔒 Rapid Bound Book Local Copy
+### Rapid Bound Book Local Copy
 Maintains a local copy of firearm transaction data for ATF compliance.
 
 - Runs on a schedule to generate and store a complete copy of bound book records.
 - Ensures local backup is always up to date.
 
-### 🌐 Rapid File Sender (FTP/SFTP)
-Executes SQL queries, generates `.CSV` files, and securely transfers them to client or vendor FTP/SFTP directories.
-
-- Fully configurable SQL source and destination folder.
-- Secure protocols (SFTP, FTPS) supported.
-- Used for integrations with external inventory, accounting, or compliance systems.
-
 ---
 
-## 🛠️ Installation & Operation
+## Installation & Operation
 
 - RCTA runs as a Windows service:  
   `RapidPOS.Service.CustomTaskAgent`
@@ -78,7 +71,7 @@ Executes SQL queries, generates `.CSV` files, and securely transfers them to cli
 
 ---
 
-## 🔍 Monitoring & Troubleshooting
+## Monitoring & Troubleshooting
 
 - Check **Windows Services** to ensure the agent is running.
 - Review the **log file** for task status, success, and errors.
@@ -86,7 +79,7 @@ Executes SQL queries, generates `.CSV` files, and securely transfers them to cli
 
 ---
 
-## ✅ Benefits
+## Benefits
 
 - **Automation-first**: Eliminate manual report running, emailing, or file uploads.
 - **Highly configurable**: Easy-to-edit YAML files allows for quick customization.
