@@ -4,7 +4,12 @@ Current Counterpoint features using RCTA:
 1. Rapid Automated Reporting
 2. Raipd Automated Purchase Order (PO) Send
 3. Rapid Bound Book Local Copy
-4. Rapid (S)FTP File Sender
+
+Additional capabilities include scheduled activities such as:
+1. File monitoring, editing & management
+2. Executing SQL, PowerShell and Batch Scripts
+3. FTP uploading and downloading
+4. Communicating to REST API (GET, POST, PUT, DELETE, etc.)
 
 # Rapid Custom Task Agent (RCTA) – Overview
 
@@ -34,7 +39,7 @@ When a trigger condition is met, RCTA executes each step in order.
 
 ---
 
-## Core Features
+## Core Counterpoint Features
 
 RCTA includes several pre-configured features designed to handle common automation scenarios for Counterpoint users:
 
