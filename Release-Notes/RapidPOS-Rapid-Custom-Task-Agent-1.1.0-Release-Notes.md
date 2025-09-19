@@ -24,6 +24,12 @@ The `SY_USR_PREF` SQL script was enhanced:
 - **Change**: The `MERGE` statement now updates user preference values if they differ from the default.  
 - **Impact**: Ensures user preferences remain accurate and aligned with expected defaults.  
 
+### Dynamic Filename Generation
+The file upload process now supports **dynamic filename generation** to include stamp date in filename.
+
+- **For example**:
+  - `2025-09-04_company_name.csv`  
+  - `2025-09-05_company_name.csv` 
 ---
 
 ## Feature: Rapid Automated Reporting
@@ -38,15 +44,4 @@ Corrected the **`ComputeNextWeeklyOccurrence`** logic:
 A new stored procedure was introduced to strengthen reporting data integrity:
 
 - **Change**: Added support for **report parameters**.  
-- **Constraint**: Introduced a **foreign key constraint** to prevent accidental deletion of report parameters.  
-
----
-
-## Feature: Rapid (S)FTP File Send
-
-### Dynamic Filename Generation
-The file send process now supports **dynamic filename generation** to include stamp date in filename.
-
-- **For example**:
-  - `2025-09-04_company_name.csv`  
-  - `2025-09-05_company_name.csv`  
+- **Constraint**: Introduced a **foreign key constraint** to prevent accidental deletion of report parameters.
