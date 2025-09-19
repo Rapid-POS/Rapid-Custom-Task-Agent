@@ -2,8 +2,6 @@
 
 _Release Date: September 24, 2025_
 
-## Applies to Multiple Features
-
 ### SQL Script Counterpoint User Security Code Fix
 The SQL install script has been updated to avoid overriding the **RCTA user’s security code**.
 
@@ -29,10 +27,11 @@ The file upload process now supports **dynamic filename generation** to include 
 
 - **For example**:
   - `2025-09-04_company_name.csv`  
-  - `2025-09-05_company_name.csv` 
+  - `2025-09-05_company_name.csv`
+
 ---
 
-## Feature: Rapid Automated Reporting
+## Feature Specific Updates: Rapid Automated Reporting
 
 ### Weekly Occurrence Logic Fix
 Corrected the **`ComputeNextWeeklyOccurrence`** logic:
