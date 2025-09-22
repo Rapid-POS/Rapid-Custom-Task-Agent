@@ -2,7 +2,7 @@
 
 Current Counterpoint features using RCTA:
 1. Rapid Automated Reporting
-2. Raipd Automated Purchase Order (PO) Send
+2. Rapid Automated Purchase Order (PO) Send
 3. Rapid Bound Book Local Copy
 
 Additional capabilities include scheduled activities such as:
