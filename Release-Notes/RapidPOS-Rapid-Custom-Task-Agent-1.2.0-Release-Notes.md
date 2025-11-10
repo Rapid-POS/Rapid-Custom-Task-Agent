@@ -1,4 +1,4 @@
-# Rapid Custom Task Agent v1.20 Release Notes
+# Rapid Custom Task Agent v1.2.0 Release Notes
 
 _Release Date: November, 10, 2025_  
 
@@ -16,7 +16,7 @@ _Release Date: November, 10, 2025_
 ## Bug Fixes and Performance Enhancements  
 
 ### Code Optimization  
-- Optimized **FTP/SFTP** handling and **report execution** logic, improving performance and reliability when data is transfered and reports are generated.  
+- Optimized **FTP/SFTP handling** and **report execution logic**, improving performance and reliability when data is transfered and reports are generated.  
 
 ### Added Foreign Key Contstraint  
 - Introduced `FK_USER_RCTA_REPORT_USER_RCTA_REPORT_HDR` in the `USER_RCTA_REPORT` table referencing the `EMAIL_HOST` column in `USER_RCTA_REPORT_HDR` to ensure referential integrity.  
