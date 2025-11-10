@@ -24,7 +24,7 @@ To ensure Rapid Automated Reporting generates reports correctly, the following r
 - When **`Occurs`** is set to **Monthly**, both **`Recurs the x day`** (day of month) *and*  **`Of every x months`** (interval in months) must be specified.  
 - The **`Recurs the x day`** and **`Of every x months`** fields can **only** be used when **`Occurs`** is set to **Monthly**.
 
-![Example of Monthly Rules](./images/RAR_Monthly_rules.png)  
+![Example of Monthly Rules](./images/RAR_monthly_rules.png)  
 
 ## Send Time(s)
 
