@@ -45,8 +45,9 @@ These rules govern the **time-of-day** options (e.g., **`Occurs once at`** vs **
 
 ## Cross-Rule Consistency  
 
-- Day-of-week options must **not** be used when the schedule is set to **Daily** or **Monthly**.  
-- Monthly recurrence fields (**`Recurs the x day`** and **`Of every x months`**) must **not** be filled in when the schedule is **Daily** or **Weekly**.  
+- The daily recurrence field (**`Recurs every x day(s)`**) must **not** be filled in when the schedule is **Monthly** or **Weekly**.  
+- The weekly recurrence fields (day-of-week options) must **not** be used when the schedule is set to **Daily** or **Monthly**.  
+- The monthly recurrence fields (**`Recurs the x day`** and **`Of every x months`**) must **not** be filled in when the schedule is **Daily** or **Weekly**.  
 
 ## Email Rules  
 
