@@ -39,7 +39,7 @@ These rules govern the **time-of-day** options (e.g., **`Occurs once at`** vs **
 
  ![Example of Occurs Once At](./images/RAR_sends_rules_once_at.png)  
 
-- If **`Occurs every`** is selected, a valid interval type **must also be selected**, such as **Hour, Minute, or Second**.  
+- If **`Occurs every`** is specified, a valid unit of time **must also be selected**, such as **Hour, Minute, or Second**.  
 
  ![Example of Occurs Every](./images/RAR_sends_rules_every.png)  
 
