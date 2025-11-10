@@ -16,9 +16,9 @@ _Release Date: November, 10, 2025_
 ## Bug Fixes and Performance Enhancements  
 
 ### Code Optimization  
-- Optimized **FTP/SFTP handling** and **report execution logic**, improving performance and reliability when data is transfered and reports are generated.  
+- Optimized **FTP/SFTP handling** and **report execution logic**, improving performance and reliability when data is transferred and reports are generated.  
 
-### Added Foreign Key Contstraint  
+### Added Foreign Key Constraint  
 - Introduced `FK_USER_RCTA_REPORT_USER_RCTA_REPORT_HDR` in the `USER_RCTA_REPORT` table referencing the `EMAIL_HOST` column in `USER_RCTA_REPORT_HDR` to ensure referential integrity.  
 - Enforced a stronger link between report headers and report details so that each report parameter set always belongs to a valid report configuration. This helps keep report definitions clean and consistent over time.  
 
