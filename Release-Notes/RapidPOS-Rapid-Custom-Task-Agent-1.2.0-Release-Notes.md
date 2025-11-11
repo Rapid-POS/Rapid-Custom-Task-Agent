@@ -1,6 +1,6 @@
 # Rapid Custom Task Agent v1.2.0 Release Notes
 
-_Release Date: November, 11, 2025_  
+_Release Date: November, 12, 2025_  
 
 ---
 
