@@ -3,7 +3,22 @@ Updated 11/11/2025
 
 ---
 
-To ensure Rapid Automated Reporting generates reports correctly, the following rules must be adhered to in the Rapid Automated Reporting setup screen.
+To ensure Rapid Automated Reporting generates reports correctly, the following rules must be adhered to in the Rapid Automated Reporting setup screen. This document can be used to troubleshoot misconfigurations.
+
+---
+
+## Table of Contents
+
+- [Enabled Flag](#enabled-flag)
+- [Email Rules](#email-rules)
+- [Proper Send As Type](#proper-send-as-type)
+- [Daily Rules](#daily-rules)
+- [Weekly Rules](#weekly-rules)
+- [Monthly Rules](#monthly-rules)
+- [Send Time Rules](#send-time-rules)
+- [Cross-Rule Consistency](#cross-rule-consistency)
+
+---
 
 ## Enabled Flag
 
@@ -18,18 +33,35 @@ To ensure Rapid Automated Reporting generates reports correctly, the following r
 
  ![Example of To Email Address](./images/RAR_to_email_address.png)  
 
-## Proper "Send As" Type
+## Proper Send As Type
 
-- Only reports that have a valid "send as" type will be generated and emailed.
-- Before configuring a report to be sent via Rapid Automated Reporting, first test the parameters and the export type. If the report can be manually exported using that type (PDF, CSV or XLS), then that is a valid choice for a "send as" type. If the report cannot be exported manually using that type, then it will fail when sent via Rapid Automated Reporting as well.
+- Only reports that have a valid **`Send as`** type will be generated and emailed.  
+- A valid **`Send as`** type is any export format that the report can successfully produce **manually** (such as **`PDF`**, **`CSV`**, or **`XLS`**).  
+  - If the report cannot be manually exported using the selected type, it will also fail when processed by Rapid Automated Reporting..
+
+### Recommended validation process
+
+Before relying on Rapid Automated Reporting for a given report:
+
+1. Open the report in Counterpoint with the same parameters that will be used by Rapid Automated Reporting.
+2. Manually export the report using the desired **`Send as`** format (for example, **`PDF`**, **`CSV`**, or **`XLS`**).
+3. Confirm that the export completes successfully and the output looks correct.
+4. Only after a successful manual export should the same format be selected in the Rapid Automated Reporting **`Send as`** field.
+
+The examples below illustrate valid and invalid **`Send as`** configurations.
 
 ![Example of Send As PDF, CSV or XLS](./images/RAR_send_as_pdf_csv_xls.png)  
 
-![Example of Send As PDF, CSV or XLS](./images/RAR_options_export.png)  
+![Example of Export Options](./images/RAR_options_export.png) 
 
-![Example of Send As PDF, CSV or XLS](./images/RAR_successful_export_csv_example.png)  
+**Example of a Valid Export (exports successfully)**
 
-![Example of Send As PDF, CSV or XLS](./images/RAR_failed_export_csv_example.png)  
+![Example of Successful CSV Export](./images/RAR_successful_export_csv_example.png)  
+
+**Example of an Invalid Export (encounters an error based on export format)**
+
+![Example of Failed CSV Export](./images/RAR_failed_export_csv_example.png)  
+
 
 ## Daily Rules  
 
@@ -52,7 +84,7 @@ To ensure Rapid Automated Reporting generates reports correctly, the following r
 
 ![Example of Monthly Rules](./images/RAR_monthly_rules.png)  
 
-## Send Time(s)
+## Send Time Rules
 
 These rules govern the **time-of-day** options (e.g., **`Occurs once at`** vs **`Occurs every`**):  
 
