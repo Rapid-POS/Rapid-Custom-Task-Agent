@@ -10,8 +10,8 @@ To ensure Rapid Automated Reporting generates reports correctly, the following r
 ## Table of Contents
 
 - [Enabled Flag](#enabled-flag)
-- [Email Rules](#email-rules)
 - [Proper Send As Type](#proper-send-as-type)
+- [Email Rules](#email-rules)
 - [Daily Rules](#daily-rules)
 - [Weekly Rules](#weekly-rules)
 - [Monthly Rules](#monthly-rules)
@@ -25,13 +25,6 @@ To ensure Rapid Automated Reporting generates reports correctly, the following r
 - Only reports that are flagged as **`Enabled`** will be generated and emailed.
 
 ![Example of Send As PDF, CSV or XLS](./images/RAR_enabled_flag.png)  
-
-## Email Rules  
-
-- All email addresses in the **To** (and related) fields must be in a **valid email format**.  
-- Invalid addresses (missing `@`, domain, etc.) will be rejected.  
-
- ![Example of To Email Address](./images/RAR_to_email_address.png)  
 
 ## Proper Send As Type
 
@@ -61,6 +54,12 @@ Before relying on Rapid Automated Reporting for a given report:
 
 ![Example of Failed CSV Export](./images/RAR_failed_export_csv_example.png)  
 
+## Email Rules  
+
+- All email addresses in the **To** (and related) fields must be in a **valid email format**.  
+- Invalid addresses (missing `@`, domain, etc.) will be rejected.  
+
+ ![Example of To Email Address](./images/RAR_to_email_address.png)  
 
 ## Daily Rules  
 
