@@ -1,0 +1,77 @@
+# Rapid Automated Reporting Setup Video
+
+The video is posted on Rapid’s YouTube channel: **[Rapid POS: Rapid Automated Reporting for Counterpoint](https://www.youtube.com/watch?v=VJ1cRP0ykt8&t)**
+
+---
+
+Below is a quick outline of the video along with timestamps for easy reference:
+
+#### 1. Overview of Rapid Automated Reporting (00:06–00:22)  
+- Purpose: Automate Counterpoint reports so they are emailed to you on a schedule  
+- Benefit: Reports automatically arrive in your inbox exactly when you need them 
+
+#### 2. Saving Report Parameters in Counterpoint (00:22–01:27)  
+- Open the Counterpoint report you frequently run  
+  - Example: Flash Sales Report for month-to-date (MTD) sales  
+- Apply all filters as you normally would  
+- Go to **Options → Save parameters**  
+- Enter a clear name for the saved parameters  
+  - Example: `MTD Flash Sales`  
+- Check the **`Public`** checkbox so the parameters are available to Rapid Automated Reporting  
+- If you already have saved parameters, edit them and confirm that **`Public`** is checked  
+
+#### 3. Opening the Rapid Automated Reporting Tool (01:27–01:45)  
+- From the **Home** screen in Counterpoint:  
+  - Navigate to the **Rapid custom task agent**  
+  - Open the folder and select the **Rapid Automated Reporting** tile  
+
+#### 4. Configuring Email Host Settings (01:45–02:14)  
+- In the Email Host section, enter your email server information  
+  - Examples: Gmail, Yahoo Mail, Outlook, or your business email domain  
+- (Optional) Enter a **CC Email Address List**  
+  - All reports that use this email host can also send copies to these addresses  
+
+#### 5. Setting Up Report Details and Recipients (02:14–04:03)  
+- **Enabled**  
+  - Check this box to turn automated sending on  
+- **Form Class**  
+  - Choose the report type that matches the Counterpoint report  
+  - Example: `Flash Sales Report`  
+- **User**  
+  - Enter `*` (asterisk) to allow the report to run for all users  
+- **Report Parameters**  
+  - Use the lookup to select the saved parameters from Step 2  
+  - Example: `MTD Flash Sales`  
+- **Email Information**  
+  - **To:** Primary recipient email address  
+    - Example: `george@business.com`  
+  - **CC:** Additional recipients (optional)  
+    - Separate addresses with commas or semicolons  
+  - **Subject:** Clear email subject line  
+    - Example: `MTD Sales Report`  
+  - **Body:** Optional message in the email body  
+    - Example: `Your report for today.`  
+
+#### 6. Scheduling When the Report Runs (04:03–05:32)  
+- In the **Occurs** field, select how often the report should run:  
+  - Daily  
+  - Weekly  
+  - Monthly  
+- Complete the matching schedule section:  
+  - For **Daily**: specify how often it runs each day or every few days  
+  - For **Weekly**: specify how many weeks between runs and which day or days of the week  
+  - For **Monthly**: specify the day of the month or pattern (for example, first Sunday)  
+- In the **Sends** section, define the time of day the report is emailed:  
+  - Send once at a specific time  
+  - Or send multiple times within a time window (useful for time-sensitive data such as drawer readings)  
+
+#### 7. Saving and Managing Automated Reports (05:32–05:55)  
+- Click the **Save** icon to save the configuration  
+- A new entry appears in the Rapid Automated Reporting list for that email host  
+- You can return to this list to:  
+  - Edit an existing automated report  
+  - Disable a report if you no longer want it to run  
+
+#### 8. Scheduling Tips and Best Practices (05:55–06:19)  
+- Report accuracy depends on both the parameters and the timing of the schedule  
+  - For example, for a week-to-date report, schedule it to run after all drawers and related activity have been posted  
