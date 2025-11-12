@@ -91,7 +91,7 @@ These rules govern the **time-of-day** options (e.g., **`Occurs once at`** vs **
   - Both cannot be left blank, and both cannot be filled in at the same time.  
 
 - Reports **cannot** use the same **`Occurs once at`** time as another report.  
-  - **Configuring multiple reports to run at exactly the exact same time may consume excessive resources.**
+  - **Configuring multiple reports to run at exactly the same time may consume excessive resources.**
 
  ![Example of Occurs Once At](./images/RAR_sends_rules_once_at.png)  
 
