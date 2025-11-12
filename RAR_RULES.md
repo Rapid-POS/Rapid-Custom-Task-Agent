@@ -35,8 +35,8 @@ To ensure Rapid Automated Reporting generates reports correctly, the following r
 
 ## Proper Send As Type
 
-- Only reports that have a valid **`Send as`** type will be generated and emailed.  
-- A valid **`Send as`** type is any export format that the report can successfully produce **manually** (such as **`PDF`**, **`CSV`**, or **`XLS`**).  
+- Only reports that have a valid **`Send As`** type will be generated and emailed.  
+- A valid **`Send As`** type is any export format that the report can successfully produce **manually** (such as **`PDF`**, **`CSV`**, or **`XLS`**).  
   - If the report cannot be manually exported using the selected type, it will also fail when processed by Rapid Automated Reporting..
 
 ![Example of Send As PDF, CSV or XLS](./images/RAR_send_as_pdf_csv_xls.png)  
@@ -46,9 +46,8 @@ To ensure Rapid Automated Reporting generates reports correctly, the following r
 Before relying on Rapid Automated Reporting for a given report:
 
 1. Open the report in Counterpoint with the same parameters that will be used by Rapid Automated Reporting.
-2. Manually export the report using the desired **`Send as`** format (for example, **`PDF`**, **`CSV`**, or **`XLS`**).
+2. Manually export the report using the desired **`Send As`** format (for example, **`PDF`**, **`CSV`**, or **`XLS`**).
 3. Confirm that the export completes successfully and the output looks correct.
-4. Only after a successful manual export should the same format be selected in the Rapid Automated Reporting **`Send as`** field.
 
 **Beginning an Export Test**
 
