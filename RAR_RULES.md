@@ -39,6 +39,8 @@ To ensure Rapid Automated Reporting generates reports correctly, the following r
 - A valid **`Send as`** type is any export format that the report can successfully produce **manually** (such as **`PDF`**, **`CSV`**, or **`XLS`**).  
   - If the report cannot be manually exported using the selected type, it will also fail when processed by Rapid Automated Reporting..
 
+![Example of Send As PDF, CSV or XLS](./images/RAR_send_as_pdf_csv_xls.png)  
+
 ### Recommended validation process
 
 Before relying on Rapid Automated Reporting for a given report:
@@ -48,9 +50,7 @@ Before relying on Rapid Automated Reporting for a given report:
 3. Confirm that the export completes successfully and the output looks correct.
 4. Only after a successful manual export should the same format be selected in the Rapid Automated Reporting **`Send as`** field.
 
-The examples below illustrate valid and invalid **`Send as`** configurations.
-
-![Example of Send As PDF, CSV or XLS](./images/RAR_send_as_pdf_csv_xls.png)  
+**Beginning an Export Test**
 
 ![Example of Export Options](./images/RAR_options_export.png) 
 
