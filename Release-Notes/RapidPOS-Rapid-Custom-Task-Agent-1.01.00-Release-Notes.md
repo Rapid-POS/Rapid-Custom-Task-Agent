@@ -1,4 +1,4 @@
-# Rapid Custom Task Agent v1.1.0 Release Notes
+# Rapid Custom Task Agent v1.01.00 Release Notes
 
 _Release Date: September 24, 2025_
 
