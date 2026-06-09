@@ -1,4 +1,26 @@
-# Rapid-Custom-Task-Agent (RCTA)
+# Rapid Custom Task Agent (RCTA)
+Updated 6/9/2026
+
+---
+
+The **Rapid Custom Task Agent (RCTA)** automates scheduled tasks within your Counterpoint environment — from report generation and purchase order delivery to custom workflows. Configured through simple YAML files, RCTA runs silently in the background so routine processes happen reliably, on time, and without manual intervention.
+
+This document outlines RCTA's system requirements, core features, installation details, and operational guidance.
+
+---
+
+## Minimum System Requirements:
+- Minimum Counterpoint version: **8.5.6.2**  
+- Minimum SQL Server version: **2016**  
+- Minimum Windows Server version: **2016**  
+- Minimum PowerShell version: **5.1**  
+
+If you would like the Rapid Custom Task Agent but your system does not meet these minimum requirements, please consult your Care Team Lead (vCIO) for an upgrade quote.
+
+> [!WARNING]
+> Your environment must meet our [CI/CD Connector Requirements](https://github.com/Rapid-POS/Miscellaneous-Documents/blob/main/CICD-Connector-Requirements.md) (server access, firewall rules, etc.) before any install or upgrade. Troubleshooting, manual installs, or follow-up work resulting from unmet requirements will be billed at standard T&M rates.
+
+---
 
 Current Counterpoint features using RCTA:
 1. Rapid Automated Reporting
