@@ -1,5 +1,5 @@
 # Rapid Custom Task Agent 1.01.10 Release Notes
-_Expected Release Date: July 8, 2026_
+_Release Date: July 14, 2026_
 
 ---
 
