@@ -1,5 +1,5 @@
 # Rules for Configuring Rapid Automated Reporting  
-Updated 11/11/2025  
+Updated 7/20/2026  
 
 ---
 
@@ -58,9 +58,12 @@ Before relying on Rapid Automated Reporting for a given report:
 
 - All email addresses in the **To** (and related) fields must be in a **valid email format**.  
 - Invalid addresses (missing `@`, domain, etc.) will be rejected.  
-
+- For the **To email address** field, addresses may be separated using a comma or a semicolon. Both types of delimiter may be used together within the same field.  
+- For the **CC email address list** field, addresses may be separated using a comma, a semicolon, or a line break. Any combination of these delimiters may be used together within the same field.  
+  - A line break may be used to separate addresses **only** in the **CC email address list** field. The **To email address** field does not support line breaks.    
+  
  ![Example of To Email Address](./images/RAR_to_email_address.png)  
-
+  
 ## Daily Rules  
 
 - When **`Occurs`** is set to **Daily**, a value **must** be entered in **`Recurs every x day(s)`**.  
