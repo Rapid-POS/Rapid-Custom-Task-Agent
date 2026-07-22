@@ -24,7 +24,7 @@ If you would like the Rapid Custom Task Agent but your system does not meet thes
 
 ## Core Features
 
-RCTA is a platform with four features layered on top of it. Some features are configured within Counterpoint, others are configured using the RCTA YAML file. 
+RCTA is a platform with multiple features layered on top of it. Some features are configured within Counterpoint, others are configured using the RCTA YAML file. 
 
 ### 1. Rapid Automated Reporting
 Automatically generates Crystal Reports based on scheduled jobs defined inside Counterpoint, and emails them to specified recipients.
@@ -45,18 +45,20 @@ Maintains a local copy of firearm transaction data for ATF compliance.
 - Runs on a schedule to generate and store a complete copy of bound book records.
 - Ensures local backup is always up to date.
 
-### 4. File Watcher
-The broadest of the four features, File Watcher covers the scheduled automation of custom tasks, such as:
+---
+
+## Additional Custom Tasks
+RCTA can also handle the scheduled automation of custom tasks, such as:
 
 - File monitoring, editing, and management
 - Executing SQL, PowerShell, and Batch scripts
 - File uploading and downloading to external systems via FTP or SFTP
 - Communicating with third-party APIs (GET, POST, PUT, DELETE, etc.)
 
-#### Configuration & Scoping
+### Configuration & Scoping
 
-- The YAML file must include a task definition for each specific process a client needs File Watcher to perform.
-- Custom YAML instructions are quoted separately. YAML changes are typically quick to customize, which helps keep quotes low.
+- The YAML file must include a task definition for each specific process a client needs RCTA to perform.
+- Custom YAML instructions are quoted on a case-by-case basis, and these features may carry a monthly subscription fee. YAML changes are typically quick to customize, which helps keep quotes low for development effort. 
 - In some cases, the underlying RCTA functionality must also be expanded to support a new YAML capability — those code-level changes are also quoted as needed. 
 
 ---
